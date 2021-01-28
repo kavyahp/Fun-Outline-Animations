@@ -9,11 +9,15 @@ body {
 }
 .container {
   text-align: center;
-  margin-top: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .btn {
   padding: 10px 20px;
   margin-left: 10px;
+  margin-top: 10px;
   font-size: 1rem;
   background: none;
   color: #1c1b1b;
