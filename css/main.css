@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: basic-sans, sans-serif;
+}
+
+body {
+  background: #eee;
+}
+
+.container {
+  text-align: center;
+  margin-top: 300px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 1rem;
+  background: none;
+  color: #1c1b1b;
+  border: 1px solid #e76f51;
+  outline: 1px solid #e76f51;
+  transition: 250ms ease-in-out;
+}
+
+.btn3 {
+  background: #e76f51;
+  color: #fff;
+  outline: 1px solid white;
+}
+
+.btn1:hover {
+  outline-offset: 5px;
+}
+
+.btn2:hover {
+  outline-offset: -5px;
+}
+
+.btn3:hover {
+  outline-offset: -5px;
+}
+
+.btn4:hover {
+  outline-offset: -8px;
+  outline-width: 8px;
+}
+/*# sourceMappingURL=main.css.map */
